@@ -101,3 +101,52 @@ body {
 .buttons-header button:first-child {
     margin-right: 12px;
 }
+
+.opacity-video {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 1680px;
+    height: 960px;
+}
+
+.video {
+    max-width: 1680px;
+    height: 960px;
+    position: relative;
+    background-image: url('./img/photo-2.jpg');
+    background-size: cover;
+}
+
+.secao1 {
+    position: absolute;
+    top: 269px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    left: 80px;
+    max-width: 1200px;
+
+}
+
+.play {
+    width: 132px;
+    height: 132px;
+    background-color: #18A0FB;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play i {
+    font-size: 59px;
+    color: #FFF;
+}
+
+.secao1 h1 {
+    font-size: 56px;
+    margin-top: 86px;
+    margin-bottom: 40px;
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+}
