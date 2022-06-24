@@ -11,22 +11,22 @@ body {
     border: 1px solid #18A0FB;
 }
 
-.button-primary {
+.first-button {
     background-color: #18A0FB;
     color: #fff;
 }
 
-.button-secondary {
+.second-button {
     background-color: #fff;
     color: #18A0FB;
 }
 
-.button-primary:hover {
+.first-button:hover {
     background-color: #fff;
     color: #18A0FB;
 }
 
-.button-secondary:hover {
+.second-button:hover {
     background-color: #18A0FB;
     color: #fff;
 }
@@ -64,6 +64,11 @@ body {
     margin-right: 70px;   
 }
 
+.logo-header img {
+    width: 20px;
+    margin-right: 5px;
+}
+
 .logo-header p {
     font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
 }
@@ -91,6 +96,7 @@ body {
    color: #fff;
    border-radius: 3px;
 }
+
 
 .buttons-header button:first-child {
     margin-right: 12px;
