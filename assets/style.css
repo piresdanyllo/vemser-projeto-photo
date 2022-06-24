@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+/* Botões */
+
+.button {
+    border-radius: 6px;
+    border: 1px solid #18A0FB;
+}
+
+.button-primary {
+    background-color: #18A0FB;
+    color: #fff;
+}
+
+.button-secondary {
+    background-color: #fff;
+    color: #18A0FB;
+}
+
+.button-primary:hover {
+    background-color: #fff;
+    color: #18A0FB;
+}
+
+.button-secondary:hover {
+    background-color: #18A0FB;
+    color: #fff;
+}
+
+.button-small {
+    width: 130px;
+    height: 40px;
+    font-size: 15px;
+}
+
+.button-large {
+    width: 192px;
+    height: 52px;
+    font-size: 17px;
+}
+
+/* Header */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo-nav {
+    display: flex;    
+    width: 50%;    
+}
+
+.logo-header {
+    display: flex;    
+    margin-right: 70px;   
+}
+
+.logo-header p {
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+}
+
+.nav-header ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.nav-header ul li:last-child {
+    margin-right: 0;
+}
+
+.nav-header ul li a {
+    color: #18A0FB;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 6px;
+    transition: 300ms;    
+}
+
+.nav-header ul li a:hover {
+   background-color: #18A0FB;
+   color: #fff;
+   border-radius: 3px;
+}
+
+.buttons-header button:first-child {
+    margin-right: 12px;
+}
