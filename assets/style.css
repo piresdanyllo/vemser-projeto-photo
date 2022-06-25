@@ -259,6 +259,7 @@ body {
     font-size: 36px;
     text-align: center;
     margin-bottom: 80px;
+    line-height: 40px;
 }
 
 .container-album {
@@ -271,5 +272,31 @@ body {
 .album img {
     width: 173px;
     margin-bottom: 40px;
+}
+
+/* Section Join and Contact */
+.join {
+    background-color: #F5F5F5;
+    height: 340px;
+}
+
+.join-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+}
+
+.join-container p {
+    font-size: 36px;
+    width: 680px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.join-container-button button:first-child {
+    margin-right: 45px;
 }
 
