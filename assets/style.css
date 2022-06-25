@@ -191,7 +191,8 @@ body {
     line-height: 25px;
 }
 
-/* seção - Galery */
+/* Section Gallery */
+
 .galery {
     display: flex;
     flex-direction: column;
@@ -209,6 +210,7 @@ body {
 
 .galery-grey {
     background-color: #F5F5F5;
+    margin-bottom: 120px;
 }
 
 .galery-grey .foto {
@@ -235,3 +237,39 @@ body {
     text-align: justify;
     line-height: 25px;
 }
+
+/* Section Album */
+
+.album {
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.album h2 {
+    font-size: 46px;
+    margin-bottom: 30px;
+}
+
+.album p {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.container-album {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.album img {
+    width: 173px;
+    margin-bottom: 40px;
+}
+
