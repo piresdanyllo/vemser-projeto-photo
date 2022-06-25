@@ -43,6 +43,22 @@ body {
     font-size: 17px;
 }
 
+/* Logo */
+
+.logo {
+    display: flex;    
+    margin-right: 70px;   
+}
+
+.logo img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.logo p {
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+}
+
 /* Header */
 
 .container {
@@ -57,20 +73,6 @@ body {
 .logo-nav {
     display: flex;    
     width: 50%;    
-}
-
-.logo-header {
-    display: flex;    
-    margin-right: 70px;   
-}
-
-.logo-header img {
-    width: 20px;
-    margin-right: 5px;
-}
-
-.logo-header p {
-    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
 }
 
 .nav-header ul li {
@@ -275,9 +277,11 @@ body {
 }
 
 /* Section Join and Contact */
+
 .join {
     background-color: #F5F5F5;
     height: 340px;
+    margin-bottom: 120px;
 }
 
 .join-container {
@@ -300,3 +304,57 @@ body {
     margin-right: 45px;
 }
 
+/* Footer */
+
+footer {
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 120px;
+}
+
+.nav-logo-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo-footer nav ul {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo-footer nav ul li a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nav-logo-footer .logo {
+    margin-right: 0;
+}
+
+hr {
+    margin-top: 48px;
+    margin-bottom: 80px;
+}
+
+.container-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.social-medias {
+    margin-bottom: 40px;
+}
+
+.social-medias i {
+    font-size: 44px;
+    margin-right: 20px;
+}
+
+.social-medias p {
+    font-size: 15px;
+}
