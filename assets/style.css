@@ -9,6 +9,7 @@ body {
 .button {
     border-radius: 6px;
     border: 1px solid #18A0FB;
+    cursor: pointer;
 }
 
 .first-button {
@@ -190,7 +191,7 @@ body {
     margin-bottom: 32px;
     font-size: 18px;
     text-align: justify;
-    line-height: 25px;
+    line-height: 30px;
 }
 
 /* Section Gallery */
@@ -237,7 +238,7 @@ body {
 .legenda-foto p {
     font-size: 18px;
     text-align: justify;
-    line-height: 25px;
+    line-height: 30px;
 }
 
 /* Section Album */
@@ -261,7 +262,7 @@ body {
     font-size: 36px;
     text-align: center;
     margin-bottom: 80px;
-    line-height: 40px;
+    line-height: 50px;
 }
 
 .container-album {
@@ -294,10 +295,10 @@ body {
 }
 
 .join-container p {
-    font-size: 36px;
+    font-size: 26px;
     width: 680px;
     text-align: justify;
-    line-height: 30px;
+    line-height: 50px;
 }
 
 .join-container-button button:first-child {
@@ -329,6 +330,13 @@ footer {
     color: #000;
     font-size: 15px;
     font-weight: bold;
+    padding: 6px;
+}
+
+.nav-logo-footer nav ul li a:hover {
+    background-color: #000;
+    color: #fff;
+    border-radius: 3px;
 }
 
 .nav-logo-footer .logo {
